@@ -16,56 +16,71 @@ class XylophoneApp extends StatelessWidget {
         backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              FlatButton(
-                onPressed: () {
-                  playSound(1);
-                },
-                color: Colors.pink,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  color: Colors.pink,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(2);
-                },
-                color: Colors.yellow,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(2);
+                  },
+                  color: Colors.yellow,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(3);
-                },
-                color: Colors.black,
-                textColor: Colors.white,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(3);
+                  },
+                  color: Colors.black,
+                  textColor: Colors.white,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(4);
-                },
-                color: Colors.green,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(4);
+                  },
+                  color: Colors.green,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(5);
-                },
-                color: Colors.blue,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(5);
+                  },
+                  color: Colors.blue,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(6);
-                },
-                color: Colors.red,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(6);
+                  },
+                  color: Colors.red,
+                  child: Text('Click Me'),
+                ),
               ),
-              FlatButton(
-                onPressed: () {
-                  playSound(7);
-                },
-                color: Colors.teal,
-                child: Text('Click Me'),
+              Expanded(
+                child: FlatButton(
+                  onPressed: () {
+                    playSound(7);
+                  },
+                  color: Colors.teal,
+                  child: Text('Click Me'),
+                ),
               )
             ],
           ),
